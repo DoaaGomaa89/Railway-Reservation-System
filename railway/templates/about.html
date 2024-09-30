@@ -1,0 +1,48 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block a %}
+<div class="container-fluid" style="max-width: 1400px; border: 2px solid #f0f0f0; border-radius: 10px; background-color: white; padding: 40px; font-family: 'Arial', sans-serif;">
+    <div class="row">
+        <div class="col-12">
+            <h3 style="text-align: center; font-size: 30px; color: #2c3e50;"><strong>About the Railway Reservation System Project</strong></h3>
+            <hr style="border: 1px solid #2c3e50;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Adjusted image size -->
+            <img src="{% static 'images/rev.webp' %}" class="img-fluid" style="width:80%; height:520px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin-left:auto; margin-right:auto; display:block;">
+        </div>
+        <div class="col-md-6" style="padding:30px 10px; font-size: 14px; line-height: 1.9; color: #34495e;">
+            <p>This <strong>Railway Reservation System</strong> was developed during my internship at <strong>Banaras Locomotive Works (BLW)</strong>, Varanasi. It automates the railway booking process using modern technologies:</p>
+            <ul style="margin-left:20px; list-style-type: square; color: #2980b9;">
+                <li><strong>Backend Technologies</strong>: <em>Python</em>, <em>Django</em>, and <em>SQLite</em> for secure and efficient server-side operations.</li>
+                <li><strong>Frontend Technologies</strong>: <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em>, and <em>Bootstrap</em> for a responsive, user-friendly interface.</li>
+                <li><strong>Key Features</strong>:
+                    <ul style="list-style-type: circle; color: #1abc9c;">
+                        <li>User registration and login</li>
+                        <li>Search and filter trains based on availability</li>
+                        <li>PNR status updates and seat booking</li>
+                        <li>Secure payments with encrypted gateways</li>
+                    </ul>
+                </li>
+                <li><strong>Admin Panel</strong>: 
+                    <ul style="list-style-type: circle; color: #1abc9c;">
+                        <li>Add and manage trains and routes</li>
+                        <li>View detailed train reports and booking summaries</li>
+                        <li>Monitor user activity and reservations</li>
+                    </ul>
+                </li>
+                <li><strong>Scalability & Security</strong>: Designed to handle high-volume bookings with data encryption to ensure user privacy and secure transactions.</li>
+            </ul>
+            <p>During my internship, I worked with departments such as <strong>Electronic Data Processing (EDP)</strong> and <strong>CNC Programming</strong>, optimizing system performance and enhancing user experience.</p>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <p style="text-align: center; font-size: 18px; color: #555;">This project combines modern technologies with real-world railway operations to deliver an efficient and intuitive booking experience.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

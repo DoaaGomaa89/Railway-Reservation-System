@@ -53,6 +53,8 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+## Snapshots of the Project:
+
 ### Access the project:
 - Open your web browser and go to http://127.0.0.1:8000/.
 
@@ -89,6 +91,5 @@ git commit -m "Added new feature"
 git push origin feature-branch
 ```
 5. Open a pull request.
-6. 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
